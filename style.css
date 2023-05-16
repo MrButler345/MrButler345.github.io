@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+}
+li, a {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ffb805;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 23%;
+}
+.nav__bar {
+    list-style: none;
+}
+.nav__bar li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__bar li a {
+    transition: all 0.6s ease 0s;
+}
+.nav__bar li a:hover {
+    color: #d08400;
+}
+.span1 {
+    transition: transform 0.5s;
+}
+.span1:hover {
+    transform: translateY(-10px);
+}
+.nav__bar Home1:hover {
+    background-color: #d08400;
+    outline: 3px white solid;
+}
+.Contact-Me-Button {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    background-color: #ffb805;
+    color: #1a1a1a;
+    padding: 8px 10px 8px 10px;
+    border: none;
+    border-radius: 12px;
+    margin-left: 10px;
+}
+.Contact-Me-Button:hover {
+    cursor: pointer;
+}
+.Description {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #ffb805;
+    height: 100px;
+    width: 54%;
+    margin: auto;
+    padding: 0;
+    padding-top: 20px;
+    text-justify: inter-word;
+}
+.Name {
+    letter-spacing: 2px;
+}
+.Horizontal-Line {
+    background-color: #ffb805;
+    margin-top: 3px;
+    height: 5px;
+    border: none;
+    padding: 0;
+    width: 235px;
+    border-radius: 5px;
+}
+.Paragraph-Description {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 25px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+.Name:hover {
+    transform: translateY(-1px);
+    transition: 500ms ease;
+}
+.Picture-of-Leyton-Butler {
+    width: auto;
+    height: 400px;
+    border: 5px #ffb805 solid;
+    border-radius: 10px;
+    float: right;
+    cursor: pointer;
+    margin-top: 0px;
+    float: right;
+}
+.Logo-of-Leyton-Butler {
+    height: 40px;
+    width: 40px;
+    border-radius: 50% ;
+    border: 3px #ffb805 solid ;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background-color: #1a1a1a;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ffb805;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d08400;
+    display: inline-block;
+}
+.Skill-Boxes h2 {
+    background-color: #ffb805;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    display: inline-block;
+    justify-content: center;
+}
+.Video-Editing, .Graphic-Design, .Programming {
+    background-color: #ffb805;
+    width: 200px;
+    height: 200px;
+}
